@@ -1,0 +1,187 @@
+				
+				body{
+					background-image:url("http://ibit.temple.edu/careerfair/files/2012/07/PowerofFox-870x400.jpg");
+				    background-repeat: no-repeat;
+					padding:35px;
+					background-size:100% 100%;
+					background-origin: content-box;
+					background-attachment: fixed;
+				}
+				
+				body *{
+					opacity:0.95;
+				}
+				.navbar-fixed-top{
+					border-bottom: 4px solid lightgrey;
+					background-color:white;
+					opacity:1;
+				}
+				
+				.thebar{
+					padding:10px 30px;
+				}
+				
+				.thebar > div.navbar-header > a{
+					line-height:40px;
+					margin:0 20px;
+					font-size:20px;
+				}
+				
+				.thebar > div.navbar-right > div{
+					position:relative;
+					float:right;
+				}
+				
+				.thebar > div.navbar-right > .userimgbox > img{
+					height:40px; 
+					width:40px;
+					margin:0 30px;
+				}
+				
+				.thebar > div.navbar-right > .userinfobox > a:hover{
+					cursor:pointer;
+				}
+				
+				li{
+					list-style-type:none;
+				}
+				
+				.listed{
+					height:90%;
+					overflow-y:auto;
+				}
+				
+				.colcat{
+					background-color:lightgrey;
+					border-bottom:3px solid black;
+					width:auto;
+				}
+				
+				.colcat > span{
+					margin-left:15px;
+					line-height:35px;
+					font-size:20px;
+					font-weight:bold;
+				}
+				.colcat i.fa-plus-square{
+					float:right;
+					margin:5px 15px;
+					opacity:0.6;
+					
+				}
+				
+				.colcat i.fa-plus-square:hover{
+					cursor:pointer;
+					opacity:1;
+				}
+				
+				.bodypartadminmain{
+					height:650px;
+				}
+				
+				.bodypartadminmain > .admincol{
+					padding:0;
+					padding-right:20px;
+					height:100%;
+				}
+				
+				.bodypartadminmain > .admincol > ul{
+					padding-top:10px;
+					width:100%;
+					overflow-y:auto;
+					height:90%;
+				}
+			
+				.bodypartadminmain > .admincol > ul > li{
+					width:90%;
+					display:inline-block;
+					padding:10px 0;
+					border-bottom:2px solid darkgrey;
+				}
+			
+				.bodypartadminmain > .admincol > ul > li > .imgbox{
+					margin:8px 10px 11px 0;
+					float:left;
+					width:50px; 
+					height:50px;
+				}
+				
+				.bodypartadminmain > .admincol > ul > li > .imgbox > img{
+					width:100%; 
+					height:100%;
+				}
+				
+				.bodypartadminmain > .admincol > ul > li > .infobox{
+					float:left;
+					margin-left:20px;
+				}
+				
+				.bodypartadminmain > .admincol > ul > li > .infobox > span{
+					font-size:15px;
+				}
+			
+				
+				.bodypartadminmain > .adminctr{
+					border:3px solid black;
+					padding:20px;
+				}
+			
+				.bodypartadminmain > .adminctr{
+					height:100%;
+				}
+					
+				.bodypartadminmain > .adminctr > .displaytitle{
+					border-bottom:3px solid black;
+				}
+			
+				.bodypartadminmain > .adminctr > .displaytitle > span{
+					font-size:20px;
+					font-weight:bold;
+					line-height:30px;
+					margin:0 10px 0 20px;
+				}
+				
+				
+				.bodypartadminmain > .adminctr > .adminnewedit > .buttonarea{
+					padding:5px 20px;
+				}
+				
+				.bodypartadminmain > .adminctr > .adminnewedit > .buttonarea > button{
+					position:relative;
+					float:left;
+					margin:5px 20px;
+					padding:5px 20px;
+					background-color:red;
+					color:white;
+					font-weight:bold;
+					font-size:15px;
+				}
+				
+				.bodypartadminmain > .adminctr > .adminnewedit > .buttonarea > input{
+					position:relative;
+					float:right;
+					margin:5px 20px;
+					padding:5px 20px;
+					background-color:green;
+					color:white;
+					font-weight:bold;
+					font-size:15px;
+				}
+				
+				.bodypartadminmain > .adminctr > .adminnewedit > .formctr{
+					margin:0 auto;
+					padding:20px 10px;
+					width:350px;
+				}
+				
+				.bodypartadminmain > .adminctr > .adminnewedit > .formctr > span{
+					margin:0 auto 20px auto;
+					display:inline-block;
+					font-weight:bold;
+				}
+				
+				.bodypartadminmain > .adminctr > .adminnewedit > .formctr > img{
+					margin:10px;
+					width:60px;
+					height:60px;
+				}

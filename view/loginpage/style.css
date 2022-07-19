@@ -1,0 +1,62 @@
+				
+				body{
+					background-image:url("http://ibit.temple.edu/careerfair/files/2012/07/PowerofFox-870x400.jpg");
+				    background-repeat: no-repeat;
+					padding:35px;
+					background-size:100% 100%;
+					background-origin: content-box;
+					background-attachment: fixed;
+				}
+				
+				body *{
+					opacity:0.95;
+				}
+				.navbar-fixed-top{
+					border-bottom: 4px solid lightgrey;
+					background-color:white;
+					opacity:1;
+				}
+				
+				.thebar{
+					padding:10px 30px;
+				}
+				
+				.thebar > div.navbar-header > a{
+					line-height:40px;
+					margin:0 20px;
+					font-size:20px;
+				}
+				
+				.thebar > div.navbar-right > div{
+					position:relative;
+					float:right;
+				}
+				
+				.thebar > div.navbar-right > .userimgbox > img{
+					height:40px; 
+					width:40px;
+					margin:0 30px;
+				}
+				
+				.thebar > div.navbar-right > .userinfobox > a:hover{
+					cursor:pointer;
+				}
+				
+				.bodypartlogin{
+					width:400px;
+					margin:30px auto;
+					padding:30px;			
+				}
+				
+				.bodypartlogin > form > *{
+					margin-top:10px;
+				}
+				
+				.bodypartlogin > form > span.logmsgbox{
+					height:20px;
+					margin:0 30px;
+					color:red;
+					font-size:11px;
+					overflow:hidden;
+				}
+				
